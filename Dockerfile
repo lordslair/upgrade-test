@@ -1,4 +1,4 @@
-FROM python:3.11-alpine3.20
+FROM python:3.13-alpine3.20
 
 # Create user and group
 RUN adduser -h /code -u 1000 -D -H ws
